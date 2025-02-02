@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: aliceblue;
+}
+
+body {
+  background-color: rgb(1, 1, 17);
+}
+
+#task::-webkit-scrollbar {
+  display: none;
+}
+
+.eye {
+  color: red;
+
+}
